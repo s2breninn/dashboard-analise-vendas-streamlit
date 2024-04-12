@@ -1,3 +1,6 @@
+[tool.taskipy.tasks]
+run = "streamlit run analise-vendas.py"
+
 [tool.poetry]
 name = "dashboard-analise-vendas-streamlit"
 version = "0.1.0"
@@ -10,7 +13,7 @@ python = "^3.11"
 pandas = "^2.2.2"
 duckdb = "^0.10.1"
 streamlit = "^1.33.0"
-
+taskipy = "^1.12.2"
 
 [build-system]
 requires = ["poetry-core"]
