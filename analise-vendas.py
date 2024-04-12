@@ -24,3 +24,5 @@ if uploaded_file is not None:
 
 
     st.write('Lucro por tipo de item:')
+    st.bar_chart(df, x='Item Type', y='Total Profit')
+    st.dataframe(df, use_container_width=True)
